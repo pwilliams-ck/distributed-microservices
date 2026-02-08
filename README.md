@@ -4,6 +4,13 @@ A production-grade distributed microservices system built with Go, demonstrating
 
 ## Learning & Exploration
 
+From what I understand, microservices are a solution to more of an organizational problem. When too many *cooks* (developers) are in the kitchen/codebase, things can get a little hectic. Other reasons for choosing a microservice architecture include:
+
+- Independent Scalability - Different services have vastly different load patterns (e.g., image processing vs. user authentication)
+- Technology Heterogeneity - Specific services genuinely benefit from different tech stacks (ML models in Python, real-time processing in Go, business logic in Java)
+- Fault Isolation - Critical services remain operational when non-critical ones fail
+- Deployment Fixes - Deploy critical fixes without touching unrelated code
+
 Go microservices ecosystem exploring HTTP, RPC, gRPC, and event-driven communication patterns. Built following Trevor Sawler's course to understand when distributed architecture is and isn't warranted.
 
 ## Overview
