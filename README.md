@@ -1,6 +1,6 @@
 # Distributed Microservices Architecture
 
-A production-grade distributed microservices system built with Go, demonstrating enterprise patterns for service communication, authentication, logging, and event-driven architecture.
+A production-grade distributed microservices system built with Go, demonstrating enterprise patterns for service communication, authentication, logging, and event-driven architecture. Microservices ecosystem exploring HTTP, RPC, gRPC, and event-driven communication patterns. Built following Trevor Sawler's course to understand when distributed architecture is and isn't warranted.
 
 ## Learning & Exploration
 
