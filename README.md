@@ -2,6 +2,10 @@
 
 A production-grade distributed microservices system built with Go, demonstrating enterprise patterns for service communication, authentication, logging, and event-driven architecture.
 
+## Learning & Exploration
+
+Go microservices ecosystem exploring HTTP, RPC, gRPC, and event-driven communication patterns. Built following Trevor Sawler's course to understand when distributed architecture is and isn't warranted.
+
 ## Overview
 
 This project showcases a complete microservices ecosystem with multiple communication patterns (HTTP, RPC, gRPC, RabbitMQ), demonstrating real-world distributed system design. The architecture features a broker service acting as an API gateway, coordinating requests across authentication, logging, and mail services through various protocols.
